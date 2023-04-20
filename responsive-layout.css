@@ -95,6 +95,7 @@ section{
     border-radius: 2rem;
     height: 200px;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .col-5-right{
@@ -102,6 +103,8 @@ section{
     background-color: grey ;
     border-radius: 2rem;
     height: 200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 footer{
