@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0084fd;
+    width: 100%;
+    height: 100px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.bars-logo{
+    color: white;
+}
+
+.logo-logo{
+    
+}
+
+.white{
+    background-color: pink;
+    width: 100%;
+    height: 600px;
+}
+
+.lilac{
+    background-color: #9792e4;
+    width: 100%;
+    height: 600px;
+}
+
+footer{
+    background-color: #333333;
+    width: 100%;
+    height: 250px;
+}
