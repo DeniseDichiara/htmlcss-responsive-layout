@@ -4,10 +4,22 @@
     box-sizing: border-box;
 }
 
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 header{
     background-color: #0084fd;
     width: 100%;
     height: 100px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
 .flex{
@@ -41,8 +53,38 @@ header{
     height: 600px;
 }
 
+.col{
+    width: 100;
+    background-color: #b5ddff ;
+    border-radius: 2rem;
+    height: 200px;
+}
+
 footer{
     background-color: #333333;
     width: 100%;
     height: 250px;
+}
+
+/* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+            RESPONSIVE
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+*/
+
+@media screen and (min-width:480px) {
+    .col{
+        width: calc( 100% / 3 - 1.5rem);
+        background-color: #b5ddff ;
+        border-radius: 2rem;
+        height: 200px;
+    }
+    
+    .col-bigger{
+        width: calc( 100% / 3 *2 );
+    }
+    
+
+    .white{
+        background-color: aqua;
+    }
 }
