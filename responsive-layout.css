@@ -83,6 +83,27 @@ section{
     height: 200px;
 }
 
+.col-5-big{
+    width: 100%;
+    background-color: lavender ;
+    height: 100%;
+}
+
+.col-5-left{
+    width: 100%;
+    background-color: lightgrey ;
+    border-radius: 2rem;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.col-5-right{
+    width: 100%;
+    background-color: grey ;
+    border-radius: 2rem;
+    height: 200px;
+}
+
 footer{
     background-color: #333333;
     width: 100%;
