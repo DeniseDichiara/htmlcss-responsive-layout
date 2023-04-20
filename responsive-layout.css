@@ -113,11 +113,36 @@ section{
     text-align: center;
     
 }
+.small-dot{
+    font-size: 5px;    
+}
 
 footer{
     background-color: #333333;
     width: 100%;
     height: 250px;
+}
+
+.footer-column{
+    /* 
+    background-color: whitesmoke;
+    */
+    
+    margin: 0 auto;
+    padding: 2rem 6rem;
+}
+
+.padding-bottom{
+    padding-bottom: 4rem ;
+}
+
+.footer-p{
+    color: aqua;
+    font-weight: 100;
+}
+
+.a-yellow{
+    color: yellow;
 }
 
 /* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
