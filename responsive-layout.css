@@ -69,6 +69,13 @@ section{
     height: 200px;
 }
 
+.col-3{
+    width: 100%;
+    background-color: gold ;
+    border-radius: 2rem;
+    height: 200px;
+}
+
 footer{
     background-color: #333333;
     width: 100%;
