@@ -107,6 +107,13 @@ section{
     text-align: center;
 }
 
+.col-6{
+    margin: auto;
+    background-color: rgb(162, 76, 205);
+    text-align: center;
+    
+}
+
 footer{
     background-color: #333333;
     width: 100%;
