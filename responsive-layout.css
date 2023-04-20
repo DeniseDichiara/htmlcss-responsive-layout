@@ -76,6 +76,13 @@ section{
     height: 200px;
 }
 
+.col-4{
+    width: 100%;
+    background-color: yellowgreen ;
+    border-radius: 2rem;
+    height: 200px;
+}
+
 footer{
     background-color: #333333;
     width: 100%;
