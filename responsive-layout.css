@@ -22,6 +22,15 @@ section{
     gap: 1.5rem;
 }
 
+nav{
+    display: none;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+}
+
 .flex{
     display: flex;
     flex-direction: row;
@@ -192,7 +201,6 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
     
     
     
-
     .white{
         background-color: aqua;
     }
@@ -216,6 +224,10 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         background-color: purple;
     }
 
+    nav{
+        display: inline;
+    }
+
     .col-2{
         width: calc( 100% / 2 - 1.5rem);
         background-color: magenta ;
@@ -237,12 +249,12 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         height: 200px;
     }
 
+    .desktop-navbar{
+
     }
 
-   
+    }
 
-    
-}
 /* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
             RESPONSIVE DEXTOP
 OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
