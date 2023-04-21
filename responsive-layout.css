@@ -27,8 +27,14 @@ section{
 }
 
 .hidden-button{
+    border-radius: 3rem;
+    border-color: white;
+    padding: .3rem .5rem;
+    background-color: white;
+    /*
     display: flex;
     flex-direction: row;
+    */
 }
 
 ul{
