@@ -162,12 +162,23 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         width: calc( 100% / 3 *2 );
     }
 
+    .col-4{
+        width: calc( 100% / 2 - 1.5rem);
+        background-color: yellowgreen ;
+        border-radius: 2rem;
+        height: 200px;
+    }
+
     
     
     
 
     .white{
         background-color: aqua;
+    }
+
+    .lilac{
+        background-color: rgb(234, 255, 0);
     }
 }
 
