@@ -35,7 +35,20 @@ ul{
     flex-direction: row;
     justify-content: space-evenly;
 }
+
 h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.h1-black{
+    color: black;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+h2{
     color: #0084fd;
     text-align: center;
 }
@@ -45,9 +58,32 @@ p{
     padding: 0 1rem;
 }
 
+.p-white{
+    text-align: start;
+    line-height: 2rem;
+    padding: 0 1rem;
+    color: white;
+}
+
 .width-icon{
     font-size: 6rem;
     padding-top: 2.5rem;
+}
+
+.lilac-arrow{
+    font-size: 2rem;
+    padding-top: 2.5rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    /*
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #9792e4;
+    */
 }
 
 .margin-auto{
@@ -157,7 +193,13 @@ p{
 
 .col-2{
     width: 100%;
-    background-color: magenta ;
+    background-color:  magenta ;
+    border-radius: 2rem;
+}
+
+.col-2-white{
+    width: 100%;
+    background-color:  white ;
     border-radius: 2rem;
 }
 
