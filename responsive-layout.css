@@ -44,6 +44,10 @@ p{
     padding: 0 1rem;
 }
 
+.text-align-center{
+    text-align: center;
+}
+
 .padding-tot{
     padding: 1.5rem 1rem ;
 }
@@ -57,14 +61,24 @@ p{
     border-color: white;
     padding: .3rem .5rem;
     background-color: white;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .blue-button{
     border-radius: 3rem;
     border-color: #0084fd;
-    padding: .3rem .5rem;
+    padding: .3rem 3rem;
     background-color:#0084fd;
     color: white;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .lilac-button{
@@ -73,6 +87,11 @@ p{
     padding: .3rem .5rem;
     background-color: #9792e4;
     color: white;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .flex{
