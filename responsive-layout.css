@@ -56,9 +56,11 @@ ul{
     color: white;
 }
 
+/*
 .logo-logo{
     
 }
+*/
 
 .white{
     background-color: pink;
@@ -265,6 +267,10 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
     .hidden-navbar{
         display: inline;
+    }
+
+    .padding-left{
+        padding-left: 1rem;
     }
 
     .flex{
