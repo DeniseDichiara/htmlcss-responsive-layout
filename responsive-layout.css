@@ -57,6 +57,10 @@ p{
     padding: 1.5rem 1rem ;
 }
 
+.margin-right{
+    margin-right: .5rem;
+}
+
 .hidden-navbar{
     display: none;
 }
