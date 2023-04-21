@@ -162,13 +162,7 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         width: calc( 100% / 3 *2 );
     }
 
-    .col-2{
-        width: calc( 100% / 2 - 1.5rem);
-        background-color: magenta ;
-        border-radius: 2rem;
-        height: 200px;
-
-    }
+    
     
     
 
@@ -185,6 +179,13 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 @media screen and (min-width:768px){
     .white{
         background-color: rgb(22, 25, 3);
+    }
+
+    .col-2{
+        width: calc( 100% / 2 - 1.5rem);
+        background-color: magenta ;
+        border-radius: 2rem;
+        height: 200px;
     }
 
    
