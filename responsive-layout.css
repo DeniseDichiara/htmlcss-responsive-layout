@@ -249,6 +249,10 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         height: 200px;
     }
 
+    .bars-logo{
+        display: none;
+    }
+
     .desktop-navbar{
 
     }
