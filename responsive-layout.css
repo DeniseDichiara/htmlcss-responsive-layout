@@ -9,6 +9,7 @@ body{
     margin: 0 auto;
     font-family: 'Heebo', sans-serif;
     font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-family: 'PT Sans Caption', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -42,6 +43,10 @@ p{
     text-align: start;
     line-height: 2rem;
     padding: 0 1rem;
+}
+
+.margin-auto{
+    margin: 0 auto;
 }
 
 .text-align-center{
