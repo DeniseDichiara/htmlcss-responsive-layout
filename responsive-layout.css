@@ -5,7 +5,7 @@
 }
 
 body{
-    max-width: 1200px;
+    max-width: 1920px;
     margin: 0 auto;
     font-family: 'Heebo', sans-serif;
     font-family: 'Hind Siliguri', sans-serif;
@@ -153,37 +153,30 @@ p{
     width: 100%;
     background-color: #b5ddff ;
     border-radius: 1rem;
-    /*
-    height: 200px;
-    */
 }
 
 .col-2{
     width: 100%;
     background-color: magenta ;
     border-radius: 2rem;
-    height: 200px;
 }
 
 .col-3{
     width: 100%;
     background-color: gold ;
     border-radius: 2rem;
-    height: 200px;
 }
 
 .col-4{
     width: 100%;
     background-color: yellowgreen ;
     border-radius: 2rem;
-    height: 200px;
 }
 
 .col-5{
     width: 100%;
     background-color:#fdc15f ;
     border-radius: 2rem;
-    height: 200px;
 }
 /*
 .col-5-big{
@@ -237,6 +230,10 @@ footer{
     padding: 2rem 6rem;
 }
 
+.padding-top{
+    padding-top: 4rem ;
+}
+
 .padding-bottom{
     padding-bottom: 4rem ;
 }
@@ -256,16 +253,15 @@ footer{
 }
 
 /* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-            RESPONSIVE MOBILE
+            RESPONSIVE TABLET
 OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 */
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:768px) {
     .col-1{
         width: calc( 100% / 3 - 1.5rem);
         background-color: #b5ddff ;
         border-radius: 2rem;
-        height: 200px;
     }
     
     .col-bigger{
@@ -276,14 +272,12 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         width: calc( 100% / 2 - 1.5rem);
         background-color: yellowgreen ;
         border-radius: 2rem;
-        height: 200px;
     }
 
     .col-5{
         width: calc( 100% / 2 - 1.5rem);
         background-color:#fdc15f ;
         border-radius: 2rem;
-        height: 200px;
     }
 
     
@@ -299,11 +293,11 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 }
 
 /* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-            RESPONSIVE TABLET
+            RESPONSIVE DEXTOP
 OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 */
 
-@media screen and (min-width:768px){
+@media screen and (min-width:1200px){
     .white{
         background-color: rgb(22, 25, 3);
     }
@@ -320,21 +314,18 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         width: calc( 100% / 2 - 1.5rem);
         background-color: magenta ;
         border-radius: 2rem;
-        height: 200px;
     }
 
     .col-4{
         width: calc( 100% / 3 - 1.5rem);
         background-color: yellowgreen ;
         border-radius: 2rem;
-        height: 200px;
     }
 
     .col-5{
         width: calc( 100% / 2 - 1.5rem);
         background-color:#fdc15f ;
         border-radius: 2rem;
-        height: 200px;
     }
 
     .bars-logo{
@@ -363,8 +354,3 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
 
     }
-
-/* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-            RESPONSIVE DEXTOP
-OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-*/
