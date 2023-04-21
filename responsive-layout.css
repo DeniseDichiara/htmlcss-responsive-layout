@@ -45,6 +45,11 @@ p{
     padding: 0 1rem;
 }
 
+.width-icon{
+    font-size: 6rem;
+    padding-top: 2.5rem;
+}
+
 .margin-auto{
     margin: 0 auto;
 }
