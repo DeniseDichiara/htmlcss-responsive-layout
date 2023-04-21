@@ -7,7 +7,11 @@
 body{
     max-width: 1200px;
     margin: 0 auto;
-    font-family: ;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -115,7 +119,9 @@ p{
     width: 100%;
     background-color: #b5ddff ;
     border-radius: 1rem;
+    /*
     height: 200px;
+    */
 }
 
 .col-2{
