@@ -310,6 +310,19 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         width: calc( 100% / 3 *2 );
     }
 
+    .hidden-title{
+        color: white;
+        font-size: 3rem;
+        text-align: start;
+        padding-left: 1rem;
+    }
+
+    p{
+        text-align: start;
+        line-height: 2rem;
+        padding: 0 1rem;
+    }
+
     .col-4{
         width: calc( 100% / 2 - 1.5rem);
         background-color: yellowgreen ;
