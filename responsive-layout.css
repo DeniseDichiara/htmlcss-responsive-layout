@@ -22,18 +22,28 @@ section{
     gap: 1.5rem;
 }
 
-nav{
+.hidden-navbar{
     display: none;
+}
+
+.hidden-button{
+    display: flex;
+    flex-direction: row;
 }
 
 ul{
     list-style-type: none;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .flex{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    display: none;
 }
 
 .navbar{
@@ -253,9 +263,22 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         display: none;
     }
 
-    .desktop-navbar{
-
+    .hidden-navbar{
+        display: inline;
     }
+
+    .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .margin-left{
+        padding-left: 1rem;
+    }
+
+
 
     }
 
