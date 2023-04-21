@@ -367,7 +367,6 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
     .col-2{
         width: calc( 100% / 2 - 1.5rem);
-        background-color: magenta ;
         border-radius: 2rem;
     }
 
