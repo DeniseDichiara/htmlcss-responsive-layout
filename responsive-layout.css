@@ -371,6 +371,15 @@ footer{
         flex-direction: row;
     }
 
+    .item-2{
+        display: flex;
+        align-items: end;
+    }
+
+    .desktop-width{
+        width: 100%;
+    }
+
     .col-2{
         width: calc( 100% / 2 - 1.5rem);
         border-radius: 2rem;
