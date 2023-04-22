@@ -388,6 +388,11 @@ footer{
         width: 100%;
     }
 
+    .container-web-dev-brand{
+        display: flex;
+        justify-content: space-between;
+    }
+
     .col-2{
         width: calc( 100% / 2 - 1.5rem);
         border-radius: 2rem;
