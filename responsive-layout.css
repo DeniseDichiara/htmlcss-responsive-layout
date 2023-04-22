@@ -368,6 +368,19 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
     .col-2{
         width: calc( 100% / 2 - 1.5rem);
         border-radius: 2rem;
+        height: 70%;
+    }
+    /*
+    .up{
+        width: 30%;
+        height: 30%;
+        background-color: #fdc15f;
+    }
+    */
+
+    .img-curl-boy{
+        width: 70%;
+        padding-left: 8rem;
     }
 
     .col-4{
